@@ -6,7 +6,7 @@ var (
 )
 
 type PlaceholderTypes interface {
-	ReplacePlaceholders(sql string, args []interface{}) (string, error)
+	ReplacePlaceholders(sql string) (string, error)
 }
 
 type placeholderDebugger interface {
