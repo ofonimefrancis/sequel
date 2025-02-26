@@ -1,0 +1,7 @@
+sequel.test 
+
+
+cover*.out
+.idea/
+vendor/
+.DS_Store
